@@ -67,7 +67,7 @@ pipeline {
                     }
                 }
             }
-        }*/
+        }
         stage('user schema') {
             when {
                 expression {
@@ -89,7 +89,7 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
         stage('go deployment') {
             when {
                 expression {
