@@ -20,7 +20,7 @@ cluster-configs:
         fss-ip: {{.mount_target_ip}}
         orbit-config:
             data:
-              db-url: jdbc:mysql://terraform-20210430191131676000000001.cx0g3ko3kktr.us-west-2.rds.amazonaws.com:3306/mydvb?prop1
+              db-url: jdbc:oracle:thin:@hostname:port Number:databaseName
               db-user: {{.user}}
               db-password: {{.pwd}}
               database-platform: org.eclipse.persistence.platform.database.OraclePlatform
